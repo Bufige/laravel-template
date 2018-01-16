@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
+
+
+/*
+fix collapsed icon
+*/
+
+@include media-breakpoint-down(xs) {
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+.navbar-nav > li {
+	margin-left: 20px;
+}
+
+.form-inline{
+  display: block;
+}
